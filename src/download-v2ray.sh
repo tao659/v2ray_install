@@ -50,9 +50,9 @@ Type=simple
 # More discussion at https://github.com/v2ray/v2ray-core/issues/1011
 User=root
 #User=nobody
-CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
-AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
-NoNewPrivileges=true
+#CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+#AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+#NoNewPrivileges=true
 ExecStart=/usr/bin/v2ray/v2ray -config /etc/v2ray/config.json
 #Restart=on-failure
 Restart=always
